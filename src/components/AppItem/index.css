@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.appsContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imgs {
+  height: 34px;
+  width: 34px;
+}
+.appName {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: cursive;
+}
+@media screen(max-width:576px) {
+  .appsContainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

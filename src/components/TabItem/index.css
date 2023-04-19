@@ -1,0 +1,25 @@
+/* Write your CSS here */
+button {
+  color: #7b8794;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 500px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.tabListInOrder {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.tabisOn {
+  border-bottom: 2px solid purple;
+  color: #2563eb;
+}
+.tab {
+  color: #7b8794;
+  font-size: 15px;
+  font-family: Arial;
+}

@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.x {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.bgColor {
+  background-image: linear-gradient(to top, #fff1eb, #ace0f9);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.xx {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+input {
+  height: 25px;
+  width: 170px;
+}
+.seacrchImg {
+  height: 25px;
+  width: 25px;
+}
+.tabListInOrder {
+  display: flex;
+  flex-direction: row;
+}
+.appsContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
